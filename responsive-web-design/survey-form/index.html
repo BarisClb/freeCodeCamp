@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Survey Form</title>
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+   <main id="whole_survey">
+      <div id="survey_introduction">
+         <div id="survey_info">
+               <!-- USER STORY 1 = TITLE -->
+               <h1 id="title">
+                  This is a survey about coding.
+               </h1>
+               <!-- USER STORY 2 = DESCRIPTION -->
+               <p id="description">Hello! We just want to ask you some simple question to understand and provide better help for the people, who just started their programming journey.</p>
+         </div>
+         <!-- BOSLUK -->
+         <br>
+         <hr>
+         <!-- BOSLUK -->
+         <!-- USER STORY 3 = SURVEY FORM -->
+         <!-- USER STORY 11 = PLACEHOLDER FOR INPUTS -->
+         <form action="" id="survey-form">
+               <div id="user_info">
+                  <h2>Let's start of with your info!</h2>
+                  <br>
+                  <div>
+                     <!-- USER STORY 4 = NAME -->
+                     <!-- USER STORY 10 = ID="LABEL" EVERYTHING -->
+                     <label for="name" id="name-label" class="on_top"><b>Name</b></label>
+                     <input type="text" id="name" placeholder="Your name" required>
+                     <label for="last_name" id="last_name-label" class="on_top"><b>Last Name</b></label>
+                     <input type="text" id="last_name" placeholder="Your last name" required>
+                     <!-- USER STORY 7 = NUMBER -->
+                     <!-- USER STORY 8 = NUMBER VALIDATION -->
+                     <label for="number" id="number-label" class="on_top"><b>Age</b></label>
+                     <input type="number" id="number" placeholder="Your age" min="0" max="120" style="width: 170px;" required>
+                     <!-- USER STORY 5 = E-MAIL -->
+                     <label for="email" id="email-label" class="on_top"><b>E-Mail Adress</b></label>
+                     <!-- USER STORY 6 = E-MAIL VALIDATION -->
+                     <input type="email" id="email" placeholder="Your last name" required>
+                     <!-- USER STORY 12 = DROPDOWN -->
+                     <label for="gender" id="dropdown" class="on_top"><b>What is your gender?</b>
+                     <select name="gender" id="gender" style="width: 175px;">
+                           <option value="Male">Male</option>
+                           <option value="Female">Female</option>
+                           <option value="nothing">Prefer not to specify.</option>
+                     </select>
+                     <label for="country" id="dropdown" class="on_top"><b>Your Country</b></label>
+                     <select name="country" id="country" style="width: 175px;">
+                           <option value="Turkey">Turkey</option>
+                     </select>
+                  </div>
+               </div>
+               <!-- BOSLUK -->
+               <br>
+               <hr>
+               <!-- BOSLUK -->
+               <!-- USER STORY 13 = RADIO BUTTONS -->
+               <div id="IDE_survey">
+                  <h2>Which IDE is your favorite?</h2>
+                     <br>
+                     <label for="vscode">
+                           <input type="radio" name="IDE_survey" value="vscode" class="back_off">Visual Stuido Code
+                     </label>
+                     <br>
+                     <label for="eclipse">
+                           <input type="radio" name="IDE_survey" value="eclipse" class="back_off">Eclipse
+                     </label>
+                     <br>
+                     <label for="pycharm">
+                           <input type="radio" name="IDE_survey" value="pycharm" class="back_off">PyCharm
+                     </label>
+                     <br>
+                     <label for="androidStudio">
+                           <input type="radio" name="IDE_survey" value="androidStudio" class="back_off">Android Studio
+                     </label>
+                     <br>
+                     <label for="IntelliJ">
+                           <input type="radio" name="IDE_survey" value="IntelliJ" class="back_off">IntelliJ
+                     </label>
+               </div>
+               <!-- BOSLUK -->
+               <br>
+               <hr>
+               <!-- BOSLUK -->
+               <!-- USER STORY 14 = CHECKBOXES -->
+               <div id="programming_language_survey">    
+                  <h2>Which programming languages do you use?</h2>
+                     <br>    
+                     <label for="javascript">
+                           <input type="checkbox" name="programming_language_survey" id="javascript" value="javascript" class="back_off">JavaScript
+                     </label>
+                     <br>    
+                     <label for="python">
+                           <input type="checkbox" name="programming_language_survey" id="python" value="python" class="back_off">Python
+                     </label>
+                     <br>    
+                     <label for="sql">
+                           <input type="checkbox" name="programming_language_survey" id="sql" value="sql" class="back_off">SQL
+                     </label>
+                     <br>    
+                     <label for="c">
+                           <input type="checkbox" name="programming_language_survey" id="c" value="c" class="back_off">C
+                     </label>
+               </div>
+               <!-- BOSLUK -->
+               <br>
+               <hr>
+               <!-- BOSLUK -->
+               <!-- USER STORY 15 = TEXT AREA -->
+               <h3>If you would like to give any additional information or want to ask or suggest us anythin, please let us know down below!</h3>
+               <textarea name="comment" id="info_textarea" cols="30" rows="10" placeholder="Please share your thoughts with us"></textarea>
+               <!-- BOSLUK -->
+               <br>
+               <br>
+               <hr>
+               <!-- BOSLUK -->
+               <br>
+               <input type="submit" name="submit_button" id="submit">
+               <br>
+               <br>
+               <br>
+         </form>
+         </div>
+      </div>
+   </main>
+   </body>
+</html>

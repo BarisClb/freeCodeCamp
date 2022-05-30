@@ -1,0 +1,124 @@
+.nav-link {
+	color: red;
+	font-size: large;
+}
+
+.nav-link:visited {
+	color: red;
+	font-weight: bold;
+}
+
+.nav-link:hover {
+	color: red;
+	font-weight: bold;
+}
+
+body {
+	padding-top: 10px;
+}
+
+#welcome-section {
+	background-color: rgb(0, 25, 51);
+	width: 100%;
+	height: 100vh;
+}
+
+.welcome_h1,
+.welcome_h2 {
+	color: rgb(128, 128, 128);
+	text-align: center;
+}
+
+.welcome_h1 {
+	padding-top: 220px;
+	font-size: 50px;
+}
+
+.welcome_h2 {
+	padding-left: 600px;
+	padding-top: 15px;
+	font-size: 40px;
+}
+
+#projects {
+	background-color: rgb(51, 0, 102);
+	width: 100%;
+	height: 100vh;
+}
+
+.card-title {
+	text-align: center;
+	font-size: 30px;
+}
+
+.link-title {
+	text-align: center;
+	font-size: 10px;
+}
+
+.card-text {
+	text-indent: 25px;
+	font-size: 20px;
+}
+
+.a_bit_down {
+	padding: 20px;
+	padding-left: 10px;
+}
+
+.project_link {
+	color: black;
+	text-align: center;
+	font-size: 30px;
+}
+
+.link_title {
+	color: black;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.project_link:visited {
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+}
+
+.project_link:hover {
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+}
+
+#profile {
+	background-color: rgb(153, 10, 0);
+	width: 100%;
+	height: 100vh;
+}
+
+.profile_h1 {
+	color: rgb(128, 128, 128);
+	text-align: center;
+	padding-top: 70px;
+	font-size: 100px;
+}
+
+.thick_hr {
+	color: #ddd;
+	background-color: #ddd;
+	height: 15px;
+	border: none;
+	max-width: 80%;
+	margin: auto;
+	border-radius: 50%;
+}
+
+.smaller_logos {
+	height: 150px;
+}
+
+.dont_take_space {
+	max-width: 150;
+}

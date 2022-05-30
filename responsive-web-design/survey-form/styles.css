@@ -1,0 +1,64 @@
+#whole_survey {
+	margin: auto;
+	margin-top: 25px;
+	max-width: 600px;
+	background-color: gray;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-indent: 25px;
+}
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+#user_info {
+	padding-left: 25px;
+}
+
+label {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: 50%;
+}
+
+.on_top {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.back_off {
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+textarea {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+
+#submit {
+	position: absolute;
+	left: 42%;
+	width: 150px;
+	height: 50px;
+}
+
+/* input[required] + label:after {
+      content: ' *';
+      color: red;
+  } */

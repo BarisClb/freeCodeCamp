@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Personal Portfolio Page</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+      <!-- CSS LINK COMES HERE -->
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+   <!-- USER STORY 6 = NAVBAR -->
+   <!-- USER STORY 9 = MEDIA QUERY SOMEWHERE -->
+   <!-- USER STORY 11 = NAVBAR FIXED TOP -->
+   <header id="header">
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-dark bg-dark">
+         <div class="container-fluid">
+            <div id="header_img" class="col-4">
+               <img src="https://i.gyazo.com/148399c06c6c3a26a1d3f9c800be8590.png" alt="product_logo" id="header-img" style="width: 150px; height: 50px; margin-left: 50px;">  
+            </div>
+            <!-- USER STORY 7 = NAVBAR LINKS -->
+            <nav id="nav-bar" class="col-4 d-flex justify-content-between" style="margin-right: 50px;">
+               <a href="#welcome-section" class="nav-link">Welcome</a>
+               <a href="#projects" class="nav-link">Projects</a>
+               <a href="#profile" class="nav-link">Profile</a>
+            </nav>
+         </div>
+      </nav>
+   </header>
+   <!-- USER STORY 1 = WELCOME SECTION -->
+   <!-- USER STORY 10 = WELCOME HEIGHT -->
+   <div id="welcome-section">
+      <!-- USER STORY 2 = H1 FOR WELCOME -->
+      <h1 class="welcome_h1">This is the personal portfolio page of BarisClb,</h1>
+      <h2 class="welcome_h2">a future Web Developer.</h2>
+   </div>
+   <!-- USER STORY 3 = PROJECTS SECTION -->
+   <!-- USER STORY 4 = PROJECT TILE -->
+   <!-- USER STORY 7 = PROJECT LINKS -->
+   <section id="projects">
+      <div class="row row-cols-1 row-cols-md-2 g-5 justify-content-evenly ">
+         <div class="card mb-3 bg-primary project-tile" style="max-width: 540px;">
+            <div class="row g-0">
+                  <div class="col-md-4">
+                     <img src="https://i.gyazo.com/c81627b5502def23aabdf9aac9bd6371.png" class="img-fluid rounded-start a_bit_down" alt="tribute_page_pic">
+                  </div>
+                  <div class="col-md-8">
+                     <div class="card-body">
+                     <h5 class="card-title"><a href="" class="project_link">Tribute Page</a></h5>
+                     <hr>
+                     <p class="card-text">This my "Tribute Page" project for the "freecodecamp".</p>
+                     </div>
+                  </div>
+            </div>
+         </div>
+         <div class="card mb-3 bg-primary project-tile" style="max-width: 540px;">
+            <div class="row g-0">
+                  <div class="col-md-4">
+                     <img src="https://i.gyazo.com/6aa477146a656506b37c372c2a2df252.png" class="img-fluid rounded-start a_bit_down" alt="tribute_page_pic">
+                  </div>
+                  <div class="col-md-8">
+                     <div class="card-body">
+                        <h5 class="card-title"><a href="" class="project_link">Survey Form</a></h5>
+                     <hr>
+                     <p class="card-text">This my "Survey Form" project for the "freecodecamp".</p>
+                     </div>
+                  </div>
+            </div>
+         </div>          
+         <div class="card mb-3 bg-primary project-tile" style="max-width: 540px;">
+            <div class="row g-0">
+                  <div class="col-md-4">
+                     <img src="https://i.gyazo.com/e4a273e24e69026a3a22706b75f26f48.png" class="img-fluid rounded-start a_bit_down" alt="tribute_page_pic">
+                  </div>
+                  <div class="col-md-8">
+                     <div class="card-body">
+                        <h5 class="card-title"><a href="" class="project_link">Product Landing</a></h5>
+                     <hr>
+                     <p class="card-text">This my "Product Landing Page" project for the "freecodecamp".</p>
+                     </div>
+                  </div>
+            </div>
+         </div>
+         <div class="card mb-3 bg-primary project-tile" style="max-width: 540px;">
+            <div class="row g-0">
+                  <div class="col-md-4">
+                     <img src="https://i.gyazo.com/b6f38b41f54cf5134ba19eca2be1579c.png" class="img-fluid rounded-start a_bit_down" alt="tribute_page_pic">
+                  </div>
+                  <div class="col-md-8">
+                     <div class="card-body">
+                        <h5 class="card-title"><a href="" class="project_link">Technical Documentation</a></h5>
+                     <hr>
+                     <p class="card-text">This my "Technical Documentation Page" project for the "freecodecamp".</p>
+                     </div>
+                  </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section id="profile">
+      <h1 class="profile_h1">Let's work together!</h1>
+      <br>
+      <br>
+      <br>
+      <hr class="thick_hr" size="2">
+      <br>
+      <br>
+      <br>
+      <div class="container d-flex justify-content-evenly">
+         <div class="row">
+            <div class="col-4">
+                  <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" alt="github_image" class="smaller_logos">
+                  <br>
+                  <h5 class="link-title-"></h5><a href="" class="link_title" target="_blank" id="profile-link">My GitHub!</a></h5>
+            </div>
+            <div class="col-4">
+                  <img src="data:image/png;base64,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" alt="github_image" class="smaller_logos">
+                  <br>
+                  <h5 class="link-title-"></h5><a href="" class="link_title" target="_blank" id="profile-link">My CodePen!</a></h5>
+            </div>
+            <div class="col-4">
+                  <img src="https://www.pngrepo.com/png/144030/512/linkedin-square-logo.png" alt="github_image" class="smaller_logos">
+                  <br>
+                  <h5 class="link-title-"></h5><a href="" class="link_title" target="_blank" id="profile-link">My LinkedIn!</a></h5>
+            </div>
+         </div>
+      </div>
+   </section>
+   </body>
+</html>

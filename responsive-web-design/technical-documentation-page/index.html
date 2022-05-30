@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Technical Documentation Page</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    <!-- CSS LINK COMES HERE -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+   <!-- USER STORY 8 = NAVBAR ID -->
+   <!-- USER STORY 9 = NAVBAR HEADER -->
+   <!-- USER STORY 15 = MEDIA QUERY SOMEWHERE IN THERE -->
+   <nav id="navbar">
+      <!-- USER STORY 11 = HEADER FOR NAVBAR -->
+      <header id="site_logo_header">
+         <img id="site_logo" src="data:image/jpeg;base64,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" alt="site_logo">
+         <h5>This is a page that shows you everything about something.</h5>
+         <p>Contents are taken from : <a href="https://bootcamp.berkeley.edu/blog/most-in-demand-programming-languages/">Berkeley</a></p> 
+      </header>
+      <!-- USER STORY 10 = NAVBAR LINKS -->
+      <!-- USER STORY 12 = NAV LINKS AND HEADERS MATCH -->
+      <!-- USER STORY 13 = NAV LINKS -->
+      <div id="content">
+         <ul>
+            <li class="link_list">
+                  <a href="#Introduction_to_Programming_Languages" class="nav-link">Introduction to Programming Languages</a>
+            </li>
+            <li class="link_list">
+                  <a href="#JavaScript" class="nav-link">JavaScript</a>
+            </li>
+            <li class="link_list">
+                  <a href="#Python" class="nav-link">Python</a>
+            </li>
+            <li class="link_list">
+                  <a href="#HTML" class="nav-link">HTML</a>
+            </li>
+            <li class="link_list">
+                  <a href="#CSS" class="nav-link">CSS</a>
+            </li class="link_list">
+            <li class="link_list" style="border-bottom: none;">
+                  <a href="#Java" class="nav-link">Java</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+   <!-- USER STORY 1 = MAIN ELEMENT -->
+   <!-- USER STORY 2 = MULTIPLE SECTIONS -->
+   <!-- USER STORY 3 = EACH SECTION HAS HEADER -->
+   <!-- USER STORY 4 = EACH SECTION HAS ID -->
+   <!-- USER STORY 5 = AT LEAST 10 PARAGRAPHS -->
+   <!-- USER STORY 6 = AT LEAST 5 CODES -->
+   <!-- USER STORY 7 = AT LEAST 5 LIST ITEMS -->
+   <main id="main-doc">
+      <section class="main-section" id="Introduction_to_Programming_Languages">
+         <header>
+            <h1 class="middle_header">Introduction to Programming Languages</h1>
+         </header>
+         <br>
+         <br>
+         <div>
+            <h5 class="push_header">What are Programming Languages and where do we use them?</h5>
+         </div>
+         <br>
+         <p class="push_para">
+            A programming language is a formal language comprising a set of strings that produce various kinds of machine code output. Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.            
+         </p>
+         <br>            
+         <div>
+            <h5 class="push_header">Which programming languages are the most popular?</h5>
+         </div>
+         <br>
+         <p class="push_para">
+            According to 'Berkeley', most popular languages are : 
+         </p>
+         <ol>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java</li>
+         </ol>
+         <br>
+         <hr>
+         <br>
+      </section>
+      <section class="main-section" id="JavaScript">
+         <header>
+            <h2 class="middle_header">JavaScript</h2>
+         </header>
+         <br>
+         <br>
+         <div>
+            <h5 class="push_header">What is Javascript and where do we use it?</h5>
+         </div>
+         <br>
+         <p class="push_para">
+            JavaScript is used for : 
+         </p>
+         <ul>
+            <li>Web development</li>
+            <li>Game development</li>
+            <li>Mobile apps</li>
+            <li>Building web servers</li>
+         </ul>
+         <br>
+         <p class="push_para">
+            JavaScript is used to manage the behavior of web pages. With it, coders can create dynamic web elements such as animated graphics, interactive maps, clickable buttons and more. Programmers who use HTML, CSS and JavaScript in tandem obtain a higher level of website control and can provide a better user experience in terms of navigation and readability. 
+         </p>
+         <br>
+         <p class="push_para">
+            JavaScript is the most common coding language in use today around the world. This is for a good reason: most web browsers utilize it and it’s one of the easiest languages to learn. JavaScript requires almost no prior coding knowledge — once you start learning, you can practice and play with it immediately. 
+         </p>
+         <br>
+         <p class="push_para">
+            Moreover, because the language is so ubiquitous, there are countless communities, courses and avenues of professional support available online. This support, in addition to the language’s top-notch usability, makes JavaScript number one on our list of the most in-demand programming languages. 
+         </p>
+         <br>
+         <p class="push_para">
+            And lastly, how to say "Hello World!" in JavaScript! : 
+         </p>
+         <code class="push_code">
+            console.log("Hello World!")
+         </code>
+         <br>
+         <br>
+         <hr>
+         <br>
+      </section>
+      <section class="main-section" id="Python">
+         <header>
+            <h2 class="middle_header">Python</h2>
+         </header>
+         <br>
+         <br>
+         <div>
+            <h5 class="push_header">What is Python and where do we use it?</h5>
+         </div>
+         <br>
+         <p class="push_para">
+            Python is used for : 
+         </p>
+         <ul>
+            <li>Back end development</li>
+            <li>Data science</li>
+            <li>App development</li>
+         </ul>
+         <br>
+         <p class="push_para">
+            Python is a general-purpose programming language that empowers developers to use several different programming styles (i.e., functional, object-oriented, reflective, etc.) when creating programs. Several popular digital tools and platforms were developed with Python, including YouTube, Google Search and iRobot machines. It is also, according to HackerRank, the second-most in-demand programming language for hiring managers in the Americas after Python (PDF, 2.4 MB).
+         </p>
+         <br>
+         <p class="push_para">
+            As one of the more easy-to-learn and -use languages, Python is ideal for beginners and experienced coders alike. The language comes with an extensive library that supports common commands and tasks. Its interactive qualities allow programmers to test code as they go, reducing the amount of time wasted on creating and testing long sections of code.  
+         </p>
+         <br>
+         <p class="push_para">
+            That said, even advanced users would benefit from adding Python to their mental catalog of programming languages; with over 50% of hiring managers (PDF, 2.4MB) seeking candidates who know the language, Python is easily one of the most marketable and in-demand programming languages of 2022. 
+         </p>
+         <br>
+         <p class="push_para">
+            And lastly, how to say "Hello World!" in Python! : 
+         </p>
+         <code class="push_code">
+            print("Hello World!")
+         </code>
+         <br>
+         <br>
+         <hr>
+         <br>
+      </section>
+      <section class="main-section" id="HTML">
+         <header>
+            <h2 class="middle_header">HTML</h2>
+         </header>
+         <br>
+         <br>
+         <div>
+            <h5 class="push_header">What is HTML and where do we use it?</h5>
+         </div>
+         <br>
+         <p class="push_para">
+            HTML is used for : 
+         </p>
+         <ul>
+            <li>Web documents</li>
+            <li>Website development</li>
+            <li>Website maintenance</li>
+         </ul>
+         <br>
+         <p class="push_para">
+            HTML stands for HyperText Markup Language. Don’t let the complicated-sounding name fool you, though; HTML is one of the most accessible stepping stones into the world of programming. 
+         </p>
+         <br>
+         <p class="push_para">
+            Technically, HTML is a markup language, which means that it is responsible for formatting the appearance of information on a website. Essentially, HTML is used to describe web pages with ordinary text. It doesn’t have the same functionality as other programming languages in this list and is limited to creating and structuring text on a site. Sections, headings, links and paragraphs are all part of the HTML domain. 
+         </p>
+         <br>
+         <p class="push_para">
+            As of 2020, HTML shares its #2 spot on Stack Overflow’s list of the most commonly used languages in the world with CSS. 
+         </p>
+         <br>
+         <p class="push_para">
+            And lastly, how to say "Hello World!" in HTML! : 
+         </p>
+         <code class="push_code">
+            Hello World!
+         </code>
+         <br>
+         <br>
+         <hr>
+         <br>
+      </section>
+      <section class="main-section" id="CSS">
+         <header>
+            <h2 class="middle_header">CSS</h2>
+         </header>
+         <br>
+         <br>
+         <div>
+            <h5 class="push_header">What is CSS and where do we use it?</h5>
+         </div>
+         <br>
+         <p class="push_para">
+            CSS is used for : 
+         </p>
+         <ul>
+            <li>Web documents</li>
+            <li>Website development</li>
+            <li>Mobile apps</li>
+            <li>Website design</li>
+         </ul>
+         <br>
+         <p class="push_para">
+            CSS, or cascading style sheets, is usually applied in conjunction with HTML and governs the site’s appearance. While HTML organizes site text into chunks, CSS is responsible for determining the size, color and position of all page elements.
+         </p>
+         <br>
+         <p class="push_para">
+            CSS is convenient, too; the cascading part of the name means that an applied style will cascade down from parent elements to all children elements across the site. This feature means that once users determine aesthetics for the main parent, they won’t have to manually repeat their code across a website. Moreover, the delegation of site organization to HTML and aesthetics to CSS means that users don’t have to completely rewrite a web page just to change a color. 
+         </p>
+         <br>
+         <p class="push_para">
+            CSS is an approachable language that allows beginning programmers to dip their toes in the metaphorical coding pool. If you’re new to coding, there’s no reason not to learn CSS before tackling more complex languages!
+         </p>
+         <br>
+         <p class="push_para">
+            And lastly, how to say "Hello World!" in CSS! : 
+         </p>
+         <code class="push_code">
+            <p class="hello_world"></p>
+         </code>
+         <br>
+         <br>
+         <hr>
+         <br>
+      </section>
+      <section class="main-section" id="Java">
+         <header>
+            <h2 class="middle_header">Java</h2>
+         </header>
+         <br>
+         <br>
+         <div>
+            <h5 class="push_header">What is Java and where do we use it?</h5>
+         </div>
+         <br>
+         <p class="push_para">
+            Java is used for : 
+         </p>
+         <ul>
+            <li>E-commerce</li>
+            <li>Finance</li>
+            <li>Mobile apps</li>
+            <li>App development</li>
+         </ul>
+         <br>
+         <p class="push_para">
+            Java is a general use and object-oriented programming language. In object-oriented programming, developers create objects that encompass functions and data, which can then be used to provide structure for programs and applications. 
+         </p>
+         <br>
+         <p class="push_para">
+            Java currently ranks as the third-most sought-after programming language for hiring managers globally (PDF, 2.4 MB) and has held the #5 spot on Stack Overflow’s list of the most commonly used languages for two years. 
+         </p>
+         <br>
+         <p class="push_para">
+            Java’s popularity is for good reason; this language is relatively easy to learn and use, boasts incredible security and can handle massive amounts of data. These features make Java an ideal language for the online finance sector, and it is often applied in industries such as banking, billing and the stock market. 
+         </p>
+         <br>
+         <p class="push_para">
+            The versatility of the language, however, is what learners find really appealing. Touted as a “write-once, run-anywhere” language, Java can effectively run on any operating system, regardless of which OS was used to write the original code. It is thus ideal for writing apps not only for mobile phones and computers, but also remote processors, sensors and a variety of other consumer products. 
+         </p>
+         <br>
+         <p class="push_para">
+            And lastly, how to say "Hello World!" in Java! : 
+         </p>
+         <code class="push_code">
+            lass HelloWorld {
+         </code>
+         <br>
+         <code class="push_code" style="margin-left: 200px;">
+            public static void main(String[] args) {
+         </code>
+         <br>        
+         <code class="push_code" style="margin-left: 250px;">
+            System.out.println("Hello, World!");
+         </code>
+         <br>      
+         <code class="push_code" style="margin-left: 200px;">
+                  }
+         </code>
+         <br>       
+         <code class="push_code">
+            }
+         </code>
+         <br>
+         <br>
+         <hr>
+         <br>
+      </section>
+   </main>
+   </body>
+</html>
